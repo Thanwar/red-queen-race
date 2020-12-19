@@ -101,7 +101,7 @@ function App() {
   useEffect(()=>{
     document.addEventListener("click", SpeedUP);
     setInterval( SpeedDOWN, 3000);
-  
+  // eslint-disable-next-line
   },[])
 
 
